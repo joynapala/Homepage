@@ -1,0 +1,113 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #38587D;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background-image: url("images/davao.jpg");
+    height: 300px;
+    background-size: cover;
+    padding: 160px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+img {
+    width: 100px;
+}
+
+h1 {
+    background: #224383; 
+    font-size: 50px;
+}
+
+h2 {
+    background: #5FB2FF; 
+    font-size: 24px;
+    width: 450px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+   font-size: 20px;
+    font-weight: 800;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1, h2 {
+    color: whitesmoke;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.features {
+    padding-top: 90px;   
+}
+
+.activities {
+    margin: 40px 0 90px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.card {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.naturepark, .beaches, .streetfood {
+    width: inherit;
+    border-radius: 8px;
+}
+
+.subtext {
+    padding-top: 24px;
+    width: 300px;
+    line-height: 20px;    
+}
+
+.guide {
+    padding: 90px 0;  
+    background-image: linear-gradient(to bottom, whitesmoke , #CCE4E9);
+}
+
+.profile {
+    width: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: #A6B5FF;
+    padding: 20px 40px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border-bottom: 8px solid #9EEDE8;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    margin: 0 20px 0 0;
+    border-radius: inherit;   
+}
+    
